@@ -1,0 +1,58 @@
+/* 状态栏样式 */
+/* 特有样式：
+    高度 35px，
+    背景颜色为 grey，
+    字体粗细 500，15px 大小，样式为宋体
+*/
+QStatusBar {
+    min-height: 35px;
+    background-color:  grey;
+    font: 500 15px 宋体;
+}
+
+/* 删除、修改、复制按钮公共样式 */
+/* 提取公共样式：
+  高度 30px
+  字体粗细 500，12px 大小，样式为宋体
+  实线边框，1px 宽，颜色为 #808080，5px 圆角
+*/
+#delete, #update, #copy {
+    min-height: 30px;
+    font: 500 12px 宋体;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
+
+/* 删除按钮样式 */
+/* 特有样式：
+ 背景颜色为 #333333，前景色为 #CCCCCC
+*/
+#delete {
+    background-color: #333333;
+    color: #CCCCCC;
+}
+
+/* 修改按钮样式 */
+/* 特有样式：
+ 背景颜色为 #555555，前景色为 #33cccc
+*/
+#update {
+    background-color: #555555;
+    color: #33cccc;
+}
+
+/* 复制按钮样式 */
+/* 特有样式：
+ 背景颜色为 #444444，前景色为 #99ffcc
+*/
+#copy {
+    background-color: #444444;
+    color: #99ffcc;
+}
+
+/* 删除、修改、复制按钮点击样式 */
+/* 按钮被点击时，背景变为蓝色，字体变为白色 */
+#delete::pressed, #update::pressed, #copy::pressed {
+    background-color: blue;
+    color: white;
+}
