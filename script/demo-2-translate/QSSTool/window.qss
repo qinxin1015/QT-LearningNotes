@@ -1,0 +1,26 @@
+QMainWindow {
+    min-width: 680px;
+    min-height: 440px;
+    max-width: 680px;
+    max-height: 440px;
+}
+
+QStatusBar {
+    min-height: 35px;
+    background-color:  grey;
+    font: 500 15px 黑体;
+}
+
+#left_btn {
+    width: 100px;
+    height: 45px;
+    margin-left: 20px;
+    font: 500 15px 黑体;
+    border-radius: 5px;
+    background-color: #FFEFD5;
+}
+
+#left_btn:checked {
+    background-color: #FF8C00;
+    color: wheat;
+}

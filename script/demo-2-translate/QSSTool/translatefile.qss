@@ -1,0 +1,65 @@
+/* 窗口属性样式 */
+QMainWindow {
+    min-width: 680px;
+    min-height: 440px;
+    max-width: 680px;
+    max-height: 440px;
+}
+
+QStatusBar {
+    min-height: 35px;
+    background-color:  grey;
+    font: 500 15px 黑体;
+}
+
+/* 文左侧导航布局按钮样式 */
+#left_btn {
+    width: 100px;
+    height: 45px;
+    margin-left: 20px;
+    font: 500 15px 黑体;
+    border-radius: 5px;
+    background-color: #FFEFD5;
+}
+
+/* 文左侧导航布局按钮点击样式 */
+#left_btn:checked {
+    width: 100px;
+    height: 45px;
+    margin-left: 20px;
+    font: 500 18px 黑体;
+    border-radius: 5px;
+    background-color: #FF8C00;
+    color: wheat;
+}
+
+/* 文件选择按钮、翻译按钮样式 */
+#file_btn, #clear_btn, #translate_btn {
+    min-height: 30px;
+    max-width: 140px;
+    border: 2px solid #5E5E5E;
+    border-radius: 5px;
+    font: 500 15px 黑体;
+    background-color: #A2945E;
+    color: #D5D5D5;
+}
+
+/* 文件选择按钮、翻译按钮样式点击样式 */
+#file_btn:pressed, #clear_btn:pressed, #translate_btn:pressed {
+    background-color: blue;
+    color: white;
+}
+
+/* 文本编辑框样式 */
+#text_edit {
+    border: 2px solid #5E5E5E;
+    border-radius: 5px;
+    font: 400 14px 黑体;
+}
+
+/* 展示翻译结果的标签样式 */
+#result_widget {
+    border: 2px solid #5E5E5E;
+    border-radius: 5px;
+    font: 400 14px 黑体;
+}

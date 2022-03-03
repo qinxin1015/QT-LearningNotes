@@ -1,0 +1,81 @@
+/* 窗口样式 */
+QMainWindow {
+    min-width: 680px;
+    min-height: 440px;
+    max-width: 680px;
+    max-height: 440px;
+}
+
+/* 状态栏样式 */
+QStatusBar {
+    min-height: 35px;
+    background-color:  grey;
+    font: 500 15px 黑体;
+}
+
+/* 左侧导航按钮样式 */
+#left_btn {
+    width: 100px;
+    height: 45px;
+    margin-left: 20px;
+    font: 500 15px 黑体;
+    border-radius: 5px;
+    background-color: #FFEFD5;
+}
+
+/* 左侧导航按钮选中样式 */
+#left_btn:checked {
+    width: 100px;
+    height: 45px;
+    margin-left: 20px;
+    font: 500 18px 黑体;
+    border-radius: 5px;
+    background-color: #FF8C00;
+    color: wheat;
+}
+
+/* 行编辑器样式 */
+#line {
+    height: 45px;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-right: 20px;
+    font: 500 18px 黑体;
+    border: solid 5px red;
+    border-radius: 5px;
+    background-color:  wheat;
+}
+
+/* 行编辑器中清空按钮样式 */
+#line QPushButton {
+    color: #E6E6E6;
+    background-color: #808080;
+    margin-right: 0;
+}
+
+/* 翻译按钮样式 */
+#translate {
+    height: 45px;
+    min-width: 100px;
+    margin-right: 20px;
+    font: 500 16px 黑体;
+    border: solid 5px red;
+    border-radius: 5px;
+    background-color:  blue;
+    color: white;
+}
+
+/* 文本编辑器样式 */
+QTextEdit {
+    min-width: 380px;
+    max-height: 300px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 12px;
+    font: 500 15px 黑体;
+    border: solid 5px black;
+    border-radius: 5px;
+    outline: none;
+}
+

@@ -1,0 +1,88 @@
+QMainWindow {
+    min-width: 680px;
+    min-height: 440px;
+    max-width: 680px;
+    max-height: 440px;
+}
+
+QStatusBar {
+    min-height: 35px;
+    background-color:  grey;
+    font: 500 15px 黑体;
+}
+
+#left_btn {
+    width: 100px;
+    height: 45px;
+    margin-left: 20px;
+    font: 500 15px 黑体;
+    border-radius: 5px;
+    background-color: #FFEFD5;
+}
+
+#left_btn:checked {
+    width: 100px;
+    height: 45px;
+    margin-left: 20px;
+    font: 500 18px 黑体;
+    border-radius: 5px;
+    background-color: #FF8C00;
+    color: wheat;
+}
+
+#label {
+    font: 500 30px 黑体;
+    border-radius: 5px;
+    background-color: #D5D5D5;
+    border: 2px groove #666666;
+    color: #3333ff;
+    margin-bottom: 15px;
+}
+
+#answer_a, #answer_b, #answer_c, #answer_d {
+    min-width: 40px;
+    min-height: 35px;
+    border: 2px groove gray;
+    font: 500 16px Arial;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#btn_a, #btn_b, #btn_c, #btn_d {
+    min-width: 450px;
+    min-height: 35px;
+    border-top: 2px groove gray;
+    border-right: 2px groove gray;
+    border-bottom: 2px groove gray;
+    margin-left: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: left;
+    padding-left: 13px;
+    font: 500 12px 黑体;
+    margin-bottom: 10px;
+}
+
+#answer_a:hover, #answer_b:hover, #answer_c:hover, #answer_d:hover,
+#btn_a:hover, #btn_b:hover, #btn_c:hover, #btn_d:hover {
+    background-color: #FFD699;
+}
+
+#pre, #unkwon, #kill, #next {
+    min-height: 35px;
+    border: 2px groove #666666;
+    border-radius: 5px;
+    margin-top: 15px;
+    font: 500 12px 黑体;
+}
+
+#pre:hover, #unkwon:hover, #kill:hover, #next:hover {
+    background-color: #ff9966;
+}
+
+#pre:pressed, #unkwon:pressed, #kill:pressed, #next:pressed {
+    background-color: blue;
+    color: white;
+}
